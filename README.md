@@ -11,12 +11,12 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 
 
 **evaluate (test-set)**
-* entropyloss:_______0.7264 
-* accuracy:__________0.9242 
-* f1-score:__________0.9236
-* precision:_________0.9245 
-* recall:_____________0.9242
-* auc:_______________0.9509
+* entropyloss: _______0.7264 
+* accuracy: __________0.9242 
+* f1-score: __________0.9236
+* precision: _________0.9245 
+* recall: _____________0.9242
+* auc: _______________0.9509
 
 **confusion matrix**
 | label name| benign | malignant | normal |
