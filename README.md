@@ -21,9 +21,9 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 **confusion matrix**
 | label name| benign | malignant | normal |
 | --- | --- | --- | --- |
-| benign  | 237  | 3 | 2 |
-| malignant  | 4 | 211  | 27  |
-| normal  | 3 | 47  | 192  |
+| benign  | 241  | 1 | 0 |
+| malignant  | 7 | 221  | 14  |
+| normal  | 7 | 26 | 209  |
 
 **detail training & evaluate in create-unet-classifier.ipnyb
 
