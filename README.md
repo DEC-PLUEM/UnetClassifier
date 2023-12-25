@@ -6,7 +6,7 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 **log validate accuracy**
 
 
-<img width="497" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/9a889e62-0d52-4dca-a500-6768e814ee23">
+<img width="443" alt="image" src="https://github.com/DEC-PLUEM/UnetClassifier/assets/154225672/7ef3006f-0ee4-402a-b23d-6dde21cfb72e">
 
 
 
